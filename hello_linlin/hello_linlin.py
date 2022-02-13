@@ -9,5 +9,5 @@ def hello_linlin():
 	print('Hello, Linlin!')
 
 
-def hello_linlin_cpython():
+def hello_linlin_cython():
 	print('Hello, Linlin! I am Cython!')
