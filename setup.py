@@ -10,7 +10,8 @@ with open('requirements.txt') as fp:
 
 
 extensions = [
-	setuptools.Extension("hello_linlin", ["hello_linlin.pyx"], language="c++")
+	setuptools.Extension(
+		"hello_linlin", ["hello_linlin/hello_linlin.pyx"], language="c++")
 ]
 
 setuptools.setup(
