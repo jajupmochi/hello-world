@@ -20,6 +20,10 @@
 # 	from hello_linlin import hello_linlin_cython
 # 	hello_linlin_cython()
 
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
 
 from hello_linlin import say_hello
 
