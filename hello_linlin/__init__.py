@@ -9,5 +9,5 @@ __author__  = "Linlin Jia"
 __date__    = "Feb. 2022"
 
 
-from hello_linlin.hello_linlin import hello_linlin, hello_linlin_cython
+# from hello_linlin.hello_linlin import hello_linlin, hello_linlin_cython
  

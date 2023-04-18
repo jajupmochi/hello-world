@@ -21,7 +21,7 @@
 # 	hello_linlin_cython()
 
 
-from hello_linlin import say_hello
+from hello_linlin.hello_linlin import say_hello
 
 
 def test_say_hello(capsys):
